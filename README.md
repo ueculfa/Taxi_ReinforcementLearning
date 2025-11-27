@@ -11,7 +11,6 @@ Bu projede ortam tamamen özelleştirilmiştir:
 - 4 yolcu konumu (o, o, o, o)
 - 3 adet duvar var ve taksi bu hücrelere giremez.
 - Sürekli yolcu alma – bırakma davranışı devam etmektedir.
-- Q-Learning ile öğrenme  
 - Eğitim gerçekleştirildikten sonra çıktıyı; GIF çıktısı olarak veriyor.
 
 ## Environment
@@ -22,7 +21,7 @@ Bu projede ortam tamamen özelleştirilmiştir:
 ### Duvar Sayısı
 - 3 adet kapalı hücre mevcuttur.
 - Bu hücrelere taksi giriş yapamaz.
-- GIF çıktısında gri kare olarak yapıldı.
+- Duvarlar gri kare olarak yapıldı.
 
 ### Yolcu Sayısı
 - 4 farklı sabit konum
