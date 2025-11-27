@@ -66,10 +66,10 @@ Ajanın davranışlarını yönlendirmek için kullanılan ödül sistemi:
 
 | Durum | Ödül |
 |-------|------|
- Normal her adım (-1)
- Başarılı dropoff (doğru hedefe indirme) (+20)
- Yanlış dropoff (-10)
- Yanlış pickup (-10)
+ Normal her adım  | (-1)
+ Başarılı dropoff (doğru hedefe indirme) | (+20)
+ Yanlış dropoff | (-10)
+ Yanlış pickup | (-10)
 
 - Ödül sayesinde öğrenme süresi hızlanmıştır. 
 - Duvarlara gitmemeyi öğrenir. 
