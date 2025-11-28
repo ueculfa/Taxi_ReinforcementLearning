@@ -1,6 +1,6 @@
 # Taksi 6x6 Reinforcement Learning Projesi
 
-Bu proje, Taksi probleminin 6x6 özel alan için tasarlanmış bir Reinforcement Learning (Q-Learning)uygulamasıdır.  
+Bu proje, Taksi probleminin 6x6 özel alan için tasarlanmış bir Reinforcement Learning (Q-Learning) uygulamasıdır.  
 Taksinin yolcuyu aldığı doğru konumdan alıp hedefe ulaştırması ve duvar engelinden kaçınarak optimal bir öğrenme gerçekleştirmesidir.
 
 ## Proje Özeti
@@ -61,5 +61,5 @@ Ajanın davranışlarını yönlendirmek için kullanılan ödül sistemi:
 - Duvarlara gitmemeyi öğrenir. 
 - Doğru pickup/dropoff davranışını öğrenir. 
 
-##Gif Süreci 
+## Gif Süreci 
 İlk olarak eğitim başlangıcında (taxi.gif) sonucuna ulaştıktan sonra eğitimi geliştirerek sonrasında sonuç olarak (taxi6x6_policy.gif) dosyası ortaya çıkarılmıştır.
