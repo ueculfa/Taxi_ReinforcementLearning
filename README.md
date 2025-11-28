@@ -1,11 +1,11 @@
 # Taksi 6x6 Reinforcement Learning Projesi
 
-Bu proje, Taksi probleminin 6x6 özel alan için tasarlanmış bir Reinforcement Learning (Q-Learning)*uygulamasıdır.  
+Bu proje, Taksi probleminin 6x6 özel alan için tasarlanmış bir Reinforcement Learning (Q-Learning)uygulamasıdır.  
 Taksinin yolcuyu aldığı doğru konumdan alıp hedefe ulaştırması ve duvar engelinden kaçınarak optimal bir öğrenme gerçekleştirmesidir.
 
 ## Proje Özeti
 
-Bu projede ortam tamamen özelleştirilmiştir:
+Bu projede ortam:
 
 - 6x6 grid
 - 4 yolcu konumu (o, o, o, o)
@@ -43,21 +43,8 @@ Bu projede ortam tamamen özelleştirilmiştir:
 
 ---
 
-## Eğitim Detayları
-
 ### Episode (Epoch) Sayısı
 - 8000 episode
-
-### Öğrenme Oranı (Learning Rate – α)
-- α = 0.1
-
-### İndirim Oranı (Discount Factor – γ)
-- γ = 0.99
-
-### Keşif Oranı (Exploration Rate – ε)
-- Başlangıç: 1.0
-- Minimum: 0.05
-- Azalma: 0.999  
 
 ## Ödül Sistemi (Reward Function)
 
@@ -74,9 +61,5 @@ Ajanın davranışlarını yönlendirmek için kullanılan ödül sistemi:
 - Duvarlara gitmemeyi öğrenir. 
 - Doğru pickup/dropoff davranışını öğrenir. 
 
-## Dosya haritası
-taxienv.py → 6x6 özel taksi ortamı
-trainTaxi.py → Q-Learning eğitimi (8000 episode)
-giftaxi.py → Eğitilmiş ajanı GIF'e dönüştürür
-q_table_taxi6x6.npy → Kaydedilmiş Q-tablosu
-README.md → Proje açıklaması
+##Gif Süreci 
+İlk olarak eğitim başlangıcında (taxi.gif) sonucuna ulaştıktan sonra eğitimi geliştirerek sonrasında sonuç olarak (taxi6x6_policy.gif) dosyası ortaya çıkarılmıştır.
